@@ -44,7 +44,7 @@ This is one example to deploy a CDE service using cURL command by harvesting the
     - Modify any existing parameters
     - Add curl arguments before and after the pasted JSON
 
-        ```json
+        ```curl
         curl -H 'Content-Type: application/json' -d '
         {...
         Pasted JSON
@@ -64,7 +64,7 @@ This is one example to deploy a CDE service using cURL command by harvesting the
 
         The resulting cURL command should look similar to this:
 
-        ```json
+        ```curl
         curl -H 'Content-Type: application/json' -d '{
         "name": "test-cde-svc",
         "env": "test-cdp-environment",
