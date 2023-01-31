@@ -40,7 +40,7 @@ This example uses a browser to harvest the needed information from your browser'
 
 5. Create the cURL command
     - Add/modify/delete parameters as desired
-    - For example, add `“telemetry.encryption.key”, “<KMS KEY ARN>”` to use additional encryption keys
+    - For example, add `“telemetry.encryption.key”, “<KMS KEY ARN>”` to use [additional encryption keys](https://docs.cloudera.com/cdp-public-cloud/cloud/requirements-aws/topics/mc-idbroker-encryption.html)
     - Modify any existing parameters
     - Add curl arguments before and after the pasted JSON
 
